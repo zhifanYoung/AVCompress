@@ -31,6 +31,11 @@
     NSLog(@"%@", info);
     [picker dismissViewControllerAnimated:YES completion: nil];
     [self compressingMovie:info[UIImagePickerControllerMediaURL]];
+    
+    NSData *temData = [NSData dataWithContentsOfFile:info[UIImagePickerControllerMediaURL]];
+    CGFloat totalSize = (float)temData.length / 1024 / 1024;
+    
+    NSLog(@"-===--- %f",totalSize);
 }
 
 // 压缩视频
@@ -58,7 +63,17 @@
     [session exportAsynchronouslyWithCompletionHandler:^{
         
         NSLog(@"导出完成! %@", [NSThread currentThread]);
+        NSData *temData = [NSData dataWithContentsOfFile:path];
+        CGFloat totalSize = (float)temData.length / 1024 / 1024;
+        
+        NSLog(@"---- %f",totalSize);
     }];
+    
+    
+    //
+    
+    
+    
 }
 
 
