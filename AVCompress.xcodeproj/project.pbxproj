@@ -16,7 +16,6 @@
 		F37A7CF71D210B5C008BCDCE /* AVCompressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F37A7CF61D210B5C008BCDCE /* AVCompressTests.m */; };
 		F37A7D021D210B5D008BCDCE /* AVCompressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F37A7D011D210B5D008BCDCE /* AVCompressUITests.m */; };
 		F37A7D111D210CE6008BCDCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37A7D101D210CE6008BCDCE /* AVFoundation.framework */; };
-		F37A7D131D21137F008BCDCE /* IMG_1064.MOV in Resources */ = {isa = PBXBuildFile; fileRef = F37A7D121D21137F008BCDCE /* IMG_1064.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		F37A7D011D210B5D008BCDCE /* AVCompressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCompressUITests.m; sourceTree = "<group>"; };
 		F37A7D031D210B5D008BCDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F37A7D101D210CE6008BCDCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F37A7D121D21137F008BCDCE /* IMG_1064.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_1064.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				F37A7CE01D210B5C008BCDCE /* AppDelegate.m */,
 				F37A7CE21D210B5C008BCDCE /* ViewController.h */,
 				F37A7CE31D210B5C008BCDCE /* ViewController.m */,
-				F37A7D121D21137F008BCDCE /* IMG_1064.MOV */,
 				F37A7CE51D210B5C008BCDCE /* Main.storyboard */,
 				F37A7CE81D210B5C008BCDCE /* Assets.xcassets */,
 				F37A7CEA1D210B5C008BCDCE /* LaunchScreen.storyboard */,
@@ -270,7 +267,6 @@
 				F37A7CEC1D210B5C008BCDCE /* LaunchScreen.storyboard in Resources */,
 				F37A7CE91D210B5C008BCDCE /* Assets.xcassets in Resources */,
 				F37A7CE71D210B5C008BCDCE /* Main.storyboard in Resources */,
-				F37A7D131D21137F008BCDCE /* IMG_1064.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +523,7 @@
 				F37A7D081D210B5D008BCDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F37A7D091D210B5D008BCDCE /* Build configuration list for PBXNativeTarget "AVCompressTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +532,7 @@
 				F37A7D0B1D210B5D008BCDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F37A7D0C1D210B5D008BCDCE /* Build configuration list for PBXNativeTarget "AVCompressUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +541,7 @@
 				F37A7D0E1D210B5D008BCDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

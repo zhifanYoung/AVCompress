@@ -38,7 +38,14 @@
     
     AVAsset *asset = [AVAsset assetWithURL:url];
     
-    AVAssetExportSession *session = [[AVAssetExportSession alloc]initWithAsset:asset presetName:AVAssetExportPresetMediumQuality];
+    /** 
+     压缩质量
+     AVAssetExportPresetLowQuality
+     AVAssetExportPresetMediumQuality
+     AVAssetExportPresetHighestQuality
+     */
+    
+    AVAssetExportSession *session = [[AVAssetExportSession alloc]initWithAsset:asset presetName:AVAssetExportPresetLowQuality];
     
     NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject] stringByAppendingPathComponent:@"123.mov"];
     
